@@ -1,0 +1,21 @@
+/*definimos el estilo que tendra nuestro body*/
+body{
+/*color de fondo y color de las letras*/
+color: white;
+/*Quitamos el margen y el espaciado del body*/
+padding: 0;
+margin: 0;
+/*que el body utilice el 100% de la pantalla*/
+height: 100vh;
+/*definimos que el layout sea tipo flex*/
+  display: flex;
+/*ahora con el flex podemos colocar los elemento por columnas*/
+  justify-content: center; /*los elementos están centrados a lo largo de la línea*/
+  align-items: center; /*los elementos se centran en el eje transversal*/
+  flex-direction:column; /*se ajusta que los elementos se ordenen en vertical (columnas)*/
+}
+
+.fondo{
+ background-color: #34495e;
+}
+
